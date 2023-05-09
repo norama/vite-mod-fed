@@ -1,0 +1,19 @@
+{
+  "name": "store",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5002 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 5002 --strictPort",
+    "serve": "vite preview --port 5002 --strictPort"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.2.2",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "nanostores": "^0.8.1"
+  }
+}
